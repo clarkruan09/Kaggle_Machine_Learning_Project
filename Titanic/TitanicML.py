@@ -44,5 +44,5 @@ clf.fit(x, y);
 survive = clf.predict(test_df.iloc[:, 2:])
 final = list(zip(test_df['PassengerId'], survive))
 final_prediction = pd.DataFrame(final, columns=['PassengerId', 'Survived'])
-final_prediction.to_csv('final_prediction8.csv', index=False)
+final_prediction.to_csv('final_prediction3.csv', index=False)
 

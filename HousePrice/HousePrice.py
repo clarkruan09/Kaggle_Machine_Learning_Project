@@ -29,4 +29,4 @@ test_predictions = pd.DataFrame(test_predictions)
 test_predictions.index.name ='Id'
 test_predictions.columns = ['SalePrice']
 test_predictions.index += 1461
-test_predictions.to_csv('final_submission.csv', index=True)
+test_predictions.to_csv('final_submission3.csv', index=True)

@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd 
 import random as rand 
 import matplotlib.pyplot as plt
@@ -24,4 +25,4 @@ test_predictions = pd.DataFrame(test_predictions)
 test_predictions.index+=1
 test_predictions.index.name ='ImageId'
 test_predictions.columns = ['Label']
-test_predictions.to_csv('final_submission.csv', index=True)
+test_predictions.to_csv('final_submission3.csv', index=True)
